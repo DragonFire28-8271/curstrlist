@@ -72,6 +72,9 @@ span.indent {
 span.fixedsize {
 	font-size: 0.7em;
 }
+span.madeup {
+	color: #666688;
+}
 a {
 	color: white;
 	text-decoration: underline;
