@@ -1,0 +1,93 @@
+/*  Font  */
+@font-face {
+	font-family: 'godoMaum';
+	src: url("godoMaum.ttf") format('truetype');
+}
+
+/*  Body  */
+body {
+	background-image: url("tutotileredblue.png");
+	background-repeat: repeat;
+	background-cover: cover;
+	background-attachment: fixed;
+	font-family: 'godoMaum';
+	color: white;
+	text-shadow: 1px 1px rgba(64, 64, 64, 0.5);
+}
+div {
+	background-color: #080840;
+	border-color: #080840;
+	padding: 5px 16px 5px 16px;
+	margin: 5px 0px 5px 0px;
+	font-size: 20px;
+}
+div.main {
+	padding: 10px;
+	margin: 0px;
+	text-align: center;
+	color: #66ff66;
+	font-size: 35px;
+	position: sticky;
+	top: 0px;
+	z-index: 100;
+}
+div.title {
+	padding: 10px;
+	text-align: center;
+	color: #6666ff;
+	font-size: 28px;
+	position: sticky;
+	top: 55px;
+	z-index: 75;
+}
+div.curstrtitle {
+	padding: 10px;
+	text-align: center;
+	color: #ff6666;
+	font-size: 25px;
+	position: sticky;
+	top: 103px;
+	z-index: 50;
+}
+div.container {
+	padding: 0px;
+	margin: 0px;
+	background-color: transparent;
+	border-color: transparent;
+}
+table {
+	background-color: #080840;
+	border-color: #080840;
+	padding: 5px 16px 5px 16px;
+	margin: 5px 0px 5px 0px;
+	font-size: 20px;
+	text-wrap: no-wrap;
+	overflow: auto;
+	width: 100vw;
+}
+span.indent {
+	display: inline-block;
+	width: 16px;
+}
+span.fixedsize {
+	font-size: 0.7em;
+}
+a {
+	color: white;
+	text-decoration: underline;
+}
+
+/*  For Curstr Colors  */
+span.anticurse {
+	color: #ff6666;
+}
+span.multi {
+	color: #66ff66;
+}
+span.combined {
+	color: #ffaa66;
+}
+span.next {
+	color: #666666;
+	font-style: italic;
+}
